@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["./src", "./test"],
+    "outDir": "build",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "lib": [ "es2015", "dom" ]
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules"]
+}
