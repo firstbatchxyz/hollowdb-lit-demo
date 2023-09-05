@@ -32,13 +32,10 @@ async function main() {
 
 main();
 ```
+Please sign in from [here](https://developer.hollowdb.xyz/sign-in) to HollowDB dashboard to get your  `Api_Key`, `Database_Name`, `ContractTxId` that you will use in demo. 
 
-- You need also sign in from [here](https://developer.hollowdb.xyz/sign-in) to HollowDB dashboard to get your  `Api_Key`, `Database_Name`, `ContractTxId` that you will use in demo. 
-<br/>
-<br/>
-    **`ContractTxId`:** change in path [lit/pages/api/hollowdb.js](https://github.com/firstbatchxyz/hollowdb-lit-demo/blob/387416ebf8aade941709a6aaeb8701e2d1bf7e60/lit/pages/api/hollowdb.js#L11) with the key found in [here](https://developer.hollowdb.xyz)\
-    **`ApiKeys`:** change in path [server/src/client/client.ts](https://github.com/firstbatchxyz/hollowdb-lit-demo/blob/387416ebf8aade941709a6aaeb8701e2d1bf7e60/server/src/client/client.ts#L15C15-L15C15) with the key found in [here](https://developer.hollowdb.xyz/api-keys)\
-    **`DatabaseName`:** change in path [server/src/client/client.ts](https://github.com/firstbatchxyz/hollowdb-lit-demo/blob/387416ebf8aade941709a6aaeb8701e2d1bf7e60/server/src/client/client.ts#L16) with the key found in [here](https://developer.hollowdb.xyz)
-  <br/>
-  <br/>
-- You also need to have 2 different node version to run this demo. To do that first install `nvm` according to instructions in [here](https://dev.to/saanchitapaul/install-nvm-node-version-manager-inside-zsh-34ke) and then you open 2 different terminal windows (after running the `yarn install` for both `server/` and `lit/` folders). Now you should be able to use 2 different node version via running `nvm use <node_version>` in two different terminal windows (Lit protocol uses v16, on the server side you can use v18).
+  `ContractTxId`: change in path lit/pages/api/hollowdb.js with the key found in [here](https://developer.hollowdb.xyz)\
+  `DatabaseName`: change in path server/src/client/client.ts with the key found in [here](https://developer.hollowdb.xyz)\
+  `ApiKeys`:change in path server/src/client/client.ts with the key found in [here](https://developer.hollowdb.xyz/api-keys)
+
+Also 2 different node version needed to run this demo (Lit protocol uses v16, on the server side you can use v18). To do that first install `nvm` according to instructions in [here](https://dev.to/saanchitapaul/install-nvm-node-version-manager-inside-zsh-34ke) and then you open 2 different terminal windows (after running the `yarn install` for both `server/` and `lit/` folders). Now you should be able to use 2 different node version via running `nvm use <node_version>` in two different terminal windows.
