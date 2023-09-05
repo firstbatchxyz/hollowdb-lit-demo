@@ -1,0 +1,40 @@
+{
+  "name": "lit-hollowdb-arweave",
+  "version": "0.1.0",
+  "repository": "https://github.com/firstbatchxyz/hollowdb-lit-demo.git",
+  "author": "FirstBatch Team <dev@firstbatch.xyz>",
+  "contributors": [
+    "Mert Malaz <mert@firstbatch.xyz>",
+    "Aleyna Alangil <aleyna@firstbatch.xyz>"
+  ],
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@bundlr-network/client": "^0.7.7",
+    "@lit-protocol/lit-node-client": "^2.2.26",
+    "@websaam/ui": "^0.0.24",
+    "ethers": "^5",
+    "hollowdb-client": "^0.1.1",
+    "lit-js-sdk": "^1.1.182",
+    "next": "12.1.6",
+    "poseidon-lite": "^0.2.0",
+    "pretty-bytes": "^6.0.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-dropzone": "^14.2.1",
+    "snarkjs": "^0.6.10"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "typescript": "^5.1.6"
+  }
+}
